@@ -1,0 +1,10 @@
+TimeStamp ,Origin ,Trip ,Destination ,ScheduledTime ,Lateness ,Track ,Status
+1314997225,South Station ,45,Kingston ,1314997200,0,13,All Aboard
+1314997225,South Station ,P523 ,Worcester / Union Station ,1314997200,0,3,All Aboard
+1314997225,South Station ,921,Stoughton ,1314998100,0,,On Time
+1314997225,South Station ,719,Forge Park / 495 ,1314997800,300,,Delayed
+1314997225,South Station ,21,Middleboro/ Lakeville ,1314997920,0,,On Time
+1314997225,South Station ,763,Readville ,1314997200,0,10,All Aboard
+1314997225,South Station ,815,Warwick-TF Green Airport ,1314997200,0,6,All Aboard
+1314997225,South Station ,P525 ,Framingham ,1314998100,0,,On Time
+1314997225,South Station ,85,Greenbush ,1314998400,0,,On Time

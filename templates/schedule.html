@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div id="wrapper">
+
+      <main>
+        <div id="content">
+          <div class="innertube">
+            <h1>Train Times</h1>
+            <table>
+                <tr>
+                    <th>Departure Time</th>
+                    <th>Trip</th>
+                    <th>Scheduled Time</th>
+                    <th>Origin</th>
+                    <th>Destination</th>
+                    <th>Track</th>
+                    <th>Status</th>
+                </tr>
+                {% for t in times %}
+                <tr>
+                    <th>{{t.departureTime}}</th>
+                    <th>{{t.trip}}</th>
+                    <th>{{t.scheduledTime}}</th>
+                    <th>{{t.origin}}</th>
+                    <th>{{t.destination}}</th>
+                    <th>{{t.track}}</th>
+                    <th>{{t.status}}</th>
+                </tr>
+                {% endfor %}
+            </table>
+
+
+          </div>
+        </div>
+      </main>
+
+</div>
+{% endblock %}
+
+
